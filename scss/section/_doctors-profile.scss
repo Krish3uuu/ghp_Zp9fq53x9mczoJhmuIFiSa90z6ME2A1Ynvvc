@@ -1,0 +1,266 @@
+
+
+@use '../custom' as*;
+
+
+.bb{
+
+    border-bottom: 1px solid gray;
+}
+.doc-intro-bg-image{
+    background: url(../../images/bg-img/bg-2.jpg) top center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.doc-intro{
+    font-family: 'Roboto Slab', serif;
+    padding-top: 130px;
+}
+
+.doc-image{
+
+    padding: 50px 50px 0 50px;
+}
+
+.doc-intro-disc{
+    padding: 100px 20px 0 0;
+
+
+    h3{
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    h1{
+        color: white;
+        margin-top: 20px;
+        font-size: 42px;
+        font-weight: 900;
+
+    }
+
+    p{
+
+        color: white;
+        font-size: 16px;
+    }
+
+    ul{
+        margin-top: 30px;
+
+        li{
+            margin-right: 15px;
+
+            a{
+
+                text-decoration: none;
+                color: $success;
+                font-size: 30px;
+
+                &:hover{
+
+                    color: $secondary;
+                }
+            }
+        }
+    }
+}
+
+
+.timetable{
+    font-family: 'Roboto Slab', serif;
+
+
+    .timetable-ct{
+
+        padding: 0 3rem 0 3rem;
+
+
+        h4{
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        h2{
+
+            font-size: 25px;
+            font-weight: 900;
+        }
+
+        .day{
+
+            font-size: 14px;
+            font-weight: 500;
+
+
+        }
+
+        .time{
+            font-size: 16px;
+            font-weight: 300;
+
+
+        }
+
+        .booking{
+            padding-left: 5px;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            color: white;
+            background-color: $secondary;
+            
+            &::after{
+             content: "\f293";
+             width: 1.6em;
+             height: 1.6em;
+             display: inline-block;
+             font-family: bootstrap-icons !important;
+             background-color: $success;
+             padding: 0 4px;
+            }
+        }
+
+
+    }
+
+    .contact-details{
+
+        h4{
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        h2{
+
+            font-size: 25px;
+            font-weight: 900;
+        }
+
+        .contact-d{
+
+
+            .cd{
+                font-size: 12px;
+
+                a{
+                   text-decoration: none;
+                   color: inherit;
+
+                   &:hover{
+
+                    color: $secondary;
+                   }
+
+                   i{
+                    margin-right: 10px;
+                    font-size: 25px;
+                   }
+                }
+            }
+        }
+
+    }
+
+    .info{
+
+        p{
+
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+}
+
+
+.testim{
+    font-family: 'Roboto Slab', serif;
+
+
+    .testim-heading{
+
+
+        h4{
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        h2{
+
+            font-size: 25px;
+            font-weight: 900;
+        }
+
+    }
+
+    .testim-ct{
+        display: flex;
+        align-items: center;
+
+        .testim-img{
+
+
+            padding: 30px;
+
+
+            img{
+
+                width: 100px;
+                border-radius: 50%;
+                border: 2px solid lightgray;
+            }
+        }
+
+        .testim-comment{
+            padding: 20px 0 20px 0;
+
+            p{
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            h5{
+
+                font-size:16px;
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+
+//////////////////// DOCTORS CV//////////////////////
+.pe-6{
+    padding-right: 6rem !important;
+}
+.doc-cv{
+    font-family: 'Roboto Slab', serif;
+    padding: 80px 0 80px 0;
+
+    h4{
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    h2{
+        margin-top: 15px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+}
+
+
+.tab-content{
+    font-size: 13px;
+    font-weight: 300;
+    padding: 40px 40px 0 0;
+}
+
+
+

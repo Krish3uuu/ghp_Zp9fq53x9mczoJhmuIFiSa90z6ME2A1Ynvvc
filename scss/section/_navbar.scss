@@ -1,0 +1,256 @@
+@use'../custom' as*;
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: background 0.5s; /* control how smooth the background changes */
+    background-color:#343a4073;
+  }
+
+
+  nav.scrolled {
+    background-color: rgba(255, 255, 255, 0.952);
+
+    .top-header{
+        display: none;
+    }
+    
+
+    .navbar-nav{
+
+        .nav-item{
+    
+            margin-right:1.5rem;
+    
+    
+            a{
+                color: black;
+
+                &:hover{
+                    color: $secondary;
+                }
+    
+            }
+        }
+        
+    }
+
+    .contact-container{
+        
+
+
+        ul{
+            display: flex;
+            justify-content: space-between;
+            li{
+                display: flex;
+                list-style: none;
+                margin-left: 4rem;
+    
+                i{
+                    display: block;
+                    color: $primary;
+                    font-size: 2rem;
+                    padding-right: 15px;
+            
+                }
+    
+            }
+        }
+        &--discription{
+                
+            h5{
+                font-size: 14px;
+                font-weight: 400;
+                color: black;
+            }
+        
+            p{
+                font-size: 12px;
+                color:black;
+                margin: 0;
+            }
+    
+        }
+    
+    }
+    .toolti-text{
+        text-transform: capitalize;
+        list-style: none;
+        width: 185px;
+        background-color:white;
+        color: white;
+        text-align: start;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 2;
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 300;
+
+            &:hover{
+
+                color: $secondary;
+            }
+        }
+
+    }
+
+    
+  }
+
+
+
+//top-header
+
+@include media-breakpoint-down(lg){
+
+    .top-header{
+
+        display: none;
+    }
+    
+}
+
+.contact-container{
+
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        li{
+            display: flex;
+            list-style: none;
+            margin-left: 4rem;
+
+            i{
+                display: block;
+                color: $primary;
+                font-size: 2rem;
+                padding-right: 15px;
+        
+            }
+
+        }
+    }
+    &--discription{
+            
+        h5{
+            font-size: 14px;
+            font-weight: 400;
+            color: white;
+        }
+    
+        p{
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.505);
+            margin: 0;
+        }
+
+    }
+
+
+}
+.logo{
+    width: 215px;
+}
+
+//main header
+
+
+.header{
+    font-family: 'Roboto Slab', serif;
+    z-index: 1000;
+
+}
+
+
+.navbar-nav{
+
+    .nav-item{
+
+        margin-right:1.5rem;
+
+
+        a{
+            color: white;
+
+            
+            &:hover{
+                color: $secondary;
+            }
+        }
+    }
+    
+}
+
+.social-media{
+    display:flex;
+}
+
+
+    .social-media--icon{
+
+
+
+        a{
+
+            text-decoration: none;
+            color:$primary;
+
+            i{
+                padding: 1rem;
+                font-size: 1rem;
+            }
+        }
+
+
+    }
+
+
+.toolti{
+
+    position: relative;
+
+
+     .toolti-text{
+        border-top: 3px solid $secondary;
+        text-transform: capitalize;
+        list-style: none ;
+        visibility: hidden;
+        width: 185px;
+        background-color:black;
+        color: black;
+        text-align:start;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 2;
+
+
+        li{
+            padding: 5px  10px 5px 10px;
+        }
+
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 300;
+
+            &:hover{
+
+                color: $secondary;
+            }
+        }
+    }
+
+
+}   
+
+.toolti:hover .toolti-text {
+    visibility: visible;
+  }

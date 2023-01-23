@@ -1,0 +1,92 @@
+@use '../custom' as*;
+
+
+
+
+.services-img-bg{
+  background-image: url(../../images/bg-img/main\ bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+
+}
+
+.services{
+    font-family: 'Roboto Slab', serif;
+
+
+    &--item-ct{
+        margin-top: -30px;
+        padding: 0 40px 40px 40px;
+
+
+
+        a{
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+            color: white;
+
+            svg{
+                height: 5rem;
+                width: 5rem;
+            }
+
+            span{
+              font-size: 4rem;
+            }
+
+        }
+
+
+      h5{
+        font-weight: 400;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 15px;
+      }
+      p{
+        font-weight: 300;
+        color: white;
+      }
+
+
+
+    }
+
+    .service2{
+
+
+      padding-top: 100px;
+
+
+      &--disc{
+
+        padding-top: 10px;
+      }
+    
+    
+    
+    
+    }
+}
+
+@include media-breakpoint-down(md){
+
+  .services--item-ct {
+    margin-top: -30px;
+    padding: 0 15px 40px 15px;
+}
+
+.services .service2 {
+  padding-top: 30px;
+}
+
+
+
+
+}
+
+
+

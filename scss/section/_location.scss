@@ -1,0 +1,55 @@
+@use '../custom'as*;
+
+
+
+
+iframe{
+    width: 100%;
+
+}
+
+.map-container{
+
+    position: relative;
+}
+
+.workcontact{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    padding: 30px;
+    background-color: $success;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 150px;
+}
+
+.workinghoursinner{
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.contactdetails{
+    padding-top: 30px;
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+.dt{
+    padding-top:10px;
+    a{
+
+        i{
+            margin-right: 10px;
+        }
+
+    }
+}
+
+
+.togg{
+    top: 50%;
+    left: 0;
+}

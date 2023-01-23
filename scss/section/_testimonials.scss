@@ -1,0 +1,79 @@
+@use '../custom' as *;
+
+
+
+
+.testimonials{
+
+    padding: 100px 0 100px 0;
+    font-family: 'Roboto Slab', serif;
+
+
+
+}
+
+
+.testimonials--client-img-ct{
+
+
+    h5{
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: 40px;
+        color: white;
+    }
+
+
+    img{
+
+        margin-top: 20px;
+    }
+ 
+}
+
+
+.testimonials--client-comment{
+
+
+    color: white;
+
+    p{
+        font-size: 20px;
+    }
+}
+
+.testimonials--client-img{
+    position: relative;
+
+
+    img{
+
+        border-radius: 50%;
+    }
+
+    .icon{
+            background-color:white;
+            padding: 7px 12px;
+            border-radius: 50%;
+            position: absolute;
+            bottom: -25px;
+            left: 30px;
+        }
+        a{
+
+            text-decoration: none;
+            color: $secondary;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+
+}
+
+@include media-breakpoint-down(md){
+
+    .px-5 {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+}

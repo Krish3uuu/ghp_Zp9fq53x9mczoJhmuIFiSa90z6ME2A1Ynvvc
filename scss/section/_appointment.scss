@@ -1,0 +1,59 @@
+@use '../custom' as*;
+
+
+
+.appointment{
+
+    font-family: 'Roboto Slab', serif;
+
+    .heading{
+
+        padding-bottom: 50px;
+
+        h4{
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+        h2{
+
+            font-size: 25px;
+            font-weight: 800;
+        }
+    }
+
+
+    .appointment-d{
+        font-family: 'Roboto Slab', serif;
+
+
+        .appointment-ct{
+
+            padding-bottom: 25px;
+
+
+            i{
+                color: $secondary ;
+                font-size: 50px;
+                margin-right: 15px;
+            }
+
+
+            .appointment-ct-dt{
+
+                h4{
+                    font-size: 20px;
+                    font-weight: 800;
+                }
+
+                p{
+                    margin: 0;
+                    font-size: 15px;
+                    font-weight: 300;
+                }
+                
+
+            }
+        }
+    }
+}

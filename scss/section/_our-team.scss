@@ -1,0 +1,112 @@
+@use '../custom' as *;
+
+
+
+
+
+.team{
+    padding: 100px 0 100px 0;
+    background-color: #ced4da;
+    font-family: 'Roboto Slab', serif;
+
+
+
+
+       
+}
+
+
+
+.team-ct{
+    height: 100%;
+    background-color: $secondary;
+
+
+
+    h5{
+        margin-top: 10px;
+    }
+
+    h3{
+        margin-top: 10px;
+    }
+
+
+    P{
+
+       font-size: 14px;
+
+
+    }
+
+}
+
+    .team--disc{
+        padding: 0 10px 10px 10px;
+
+
+        span{
+    
+    
+            a{
+    
+                text-decoration: none;
+    
+                svg{
+                    margin-top: -20px;
+                    color:$success;
+                }
+    
+            }
+        }
+    
+    }
+
+
+    
+    
+    .team--social-media{
+    
+    
+        ul{
+            margin: 0;
+    
+            li{
+
+                margin: 10px;
+    
+    
+                a{
+    
+                    text-decoration: none;
+                    color: white;
+
+                    i{
+
+                        
+                       font-size: 20px;
+
+                    }
+
+                    
+                }
+            }
+        }
+    }
+
+
+
+@include media-breakpoint-down(md){
+
+
+    .team {
+        padding: 50px 0 50px 0;
+    }
+
+
+    .team--img img {
+        width: 100%;
+    }
+
+
+}

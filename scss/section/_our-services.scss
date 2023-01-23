@@ -1,0 +1,128 @@
+@use'../custom' as*;
+
+
+
+
+.our_services--ct{
+    
+    padding: 0 14px;
+}
+
+.our_services--disc-ct{
+    font-family: 'Roboto Slab', serif;
+    padding: 0 12px 15px 12px;
+
+    h5{
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    h2{   
+        font-size: 24px;
+        font-weight: 900;
+
+    }
+
+    p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+
+}
+
+.our_services--icon{
+    margin-top:-35px;
+    display: inline-block;
+    
+    a{
+        text-decoration: none;
+        color: $secondary;
+        font-size: 50px;
+           
+        
+    }
+    
+}
+
+////////////////////////////////////////////
+///////////services page////////////////////
+////////////////////////////////////////////
+
+
+.svcs-bg{
+    background-image: url(../../images/bg-img/pills\ and\ tablets.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.svcs{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.svcs-heading{
+    background-color: rgba(0, 0, 0, 0.379);
+    border-radius: 8px;
+    padding: 20px 30px;
+    text-align: center;
+
+
+    h3{
+        font-size: 25px;
+        font-weight: 800;
+
+    }
+    p{
+
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+
+.svcs--ct{
+    background-color: rgba(0, 0, 0, 0.379);
+    border-radius: 8px;
+    height: 100%;
+    padding: 0 14px;
+}
+
+.svcs--disc-ct{
+    font-family: 'Roboto Slab', serif;
+    padding: 0 12px 15px 12px;
+
+    h5{
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    h2{   
+        font-size: 24px;
+        font-weight: 900;
+
+    }
+
+    p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+
+}
+
+.svcs--icon{
+    margin-top:-35px;
+    display: inline-block;
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+           
+        
+    }
+    
+}

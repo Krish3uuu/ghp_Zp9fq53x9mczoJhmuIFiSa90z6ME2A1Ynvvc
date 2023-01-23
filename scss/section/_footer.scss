@@ -1,0 +1,157 @@
+@use '../custom' as*;
+
+
+
+
+.footer-img-bg{
+    background-image: url(../../images/bg-img/shutterstock_272306351-dark.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+  
+  }
+
+
+.footer{
+
+    font-family: 'Roboto Slab', serif;
+    color: white;
+
+    i{
+        color: #006ad5;
+    }
+
+    h5{
+        font-size: 14px;
+
+    }
+
+    h3{
+        font-size: 18px;
+        font-weight: 900;
+
+    }
+
+    p{
+        font-size: 12px;
+    }
+}
+
+
+.emargency{
+
+
+    &--ct{
+
+        i{
+            font-size: 50px;
+
+        }
+
+    }
+
+}
+
+.emargency--ct-dt{
+
+    margin-left: 20px;
+
+    h4{
+        
+    font-size: 12px;
+    font-weight: 900;
+
+    }
+
+    p{
+        margin: 5px 0 0 0;
+        font-size: 10px;
+        font-weight: 300;
+
+
+    }
+}
+
+
+.home-service{
+
+
+        i{
+            font-size: 50px;
+
+        }
+
+
+}
+
+.home-service--dt{
+
+    margin-left: 20px;
+
+
+    h4{
+        
+    font-size: 12px;
+    font-weight: 900;
+
+    }
+
+    p{
+        margin: 5px 0 0 0;
+        font-size: 10px;
+        font-weight: 300;
+
+
+    }
+}
+
+
+.follow-us{
+
+
+    h5{
+        font-size: 14px;
+
+    }
+
+    h4{
+        font-size: 18px;
+        font-weight: 900;
+
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+
+
+}
+
+
+.footer-media{
+
+
+    .footer-media--icon{
+
+
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}
+
+.copyright{
+
+    img{
+
+        width: 100px;
+    }
+
+    p{
+
+        margin: 0;
+    }
+}
